@@ -1,0 +1,83 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;color: black; }
+ul,li{list-style: none;}
+body{width: 100%;height: 100%;}
+
+
+#header{width: 100%;height: 60px;background-image: linear-gradient(#545454,#373737);border-top: 1px solid #121212;border-bottom: 1px solid #121212; display: flex;align-items: center;}
+#header .logo{width: 39px;height: 36px; background: url(./logo.png) no-repeat center / cover;margin-left:40px; }
+#header p{margin-left:10px; color: #fff; font-size: 20px;line-height: 18px}
+#ifbox{width: 100%;height:2264px;display: flex;}
+#box{width:12%;height:2264px;background: #3a3633}
+#box .small{width: 100%; height: 24px;border-bottom: 1px solid #000}
+#box .box{width: 100%;height:54px;display: block; border-bottom:1px solid #000}
+#box .box .onlybox{font-size: 15px; width: 100%;height: 100%;position: relative; display: flex;align-items:center;}
+#box .box .onlybox .fa{color:#c0bbb7;margin-left: 10px}
+#box .box .onlybox .fa-chevron-right{position: absolute;right: 20px;}
+#box .box .onlybox p{color: #c0bbb7; margin-left: 10px}
+#box .line{width: 100%;height: 1px;background: #525151;}
+#main{width:95%;height: 2264px;}
+#main .bigbox{width: 990px; height: 290px; margin-top:25px;margin-left:35px;display: flex;justify-content: center; align-items: center; flex-flow: column;  }
+#main .bigbox .topbox{width: 100%; height:40px; background: #fff2a0;border: 2px solid #f9dd34;border-radius: 5px }
+#main .pont{font-size: 35px; color: #3c3c3c; margin-top:30px; margin-left:35px; }
+#main .topbox .box {width: 100%; height: 100%; display: flex; align-items: center;}
+#main .topbox .box p{font-size:15px;font-weight: bold }
+#main .topbox .box .button{margin-left: 10px; margin-right: 10px; width: 15px; height: 12px;display: flex; justify-content: space-between;flex-flow: column;}
+#main .topbox .box .button .one{width: 100%;height: 1px;background: #000;}
+#main .topbox .box .button .two{width: 100%; height: 3px;background: #000;}
+#main table{width: 100%; height: 70%;  border-collapse: collapse; text-align: left;border-top: 1px solid #666666;margin-top: 10px;font-size: 15px }
+#main table tr{height:64px }
+#main table tr:nth-child(1){height:50px }
+#main table th{font-weight: lighter;background:#f8f8f8;border-bottom: 2px solid #e3e3e3;  }
+#main table th p{margin-left: 10px}
+#main table td{line-height:15px;font-weight: lighter;border-bottom: 2px solid #e3e3e3;}
+#main table td .default{height: 30px}
+#main table td .small{height:20px }
+#main table td .large{height:50px }
+#main table td .atag{width: 60px}
+#main table td .buttontag{width:85px }
+#main table td .inputtag{width:75px }
+#main input[type="button"]{transition: 0.5s;}
+#main .default  input[type="button"]{display: flex; justify-content: center; align-items: center; margin-left: 10px;border: 1px solid #c1c1c1;border-radius: 5px; background: #f7f7f7}
+#main .yellow  input[type="button"]{display: flex; justify-content: center; align-items: center; margin-left: 10px;border: 1px solid #ffef40;border-radius: 5px; background: #ffea00}
+#main .brown  input[type="button"]{color: #fff; display: flex; justify-content: center; align-items: center; margin-left: 10px;border: 1px solid #a49999;border-radius: 5px; background: #493334}
+#main .red  input[type="button"]{color: #fff; display: flex; justify-content: center; align-items: center; margin-left: 10px;border: 1px solid #ffada4;border-radius: 5px; background: #ff5b49}
+#main .green  input[type="button"]{color: #fff; display: flex; justify-content: center; align-items: center; margin-left: 10px;border: 1px solid #86e2dc;border-radius: 5px; background: #0dc5b9}
+#main .blue  input[type="button"]{color: #fff; display: flex; justify-content: center; align-items: center; margin-left: 10px;border: 1px solid #a4d6f6;border-radius: 5px; background: #4aaded}
+#main .default  input[type="button"]:hover{color: #fff; background:#c1c1c1 }
+#main .yellow  input[type="button"]:hover{color: #fff; background:#ffef40 }
+#main .brown  input[type="button"]:hover{ background:#a49999 }
+#main .red  input[type="button"]:hover{ background:#ffada4 }
+#main .green  input[type="button"]:hover{ background:#86e2dc }
+#main .blue  input[type="button"]:hover{background:#a4d6f6 }
+footer{width: 100%; height: 70px;background: #3a3633; font-size: 15px; line-height:70px }
+footer p {color: #fff; margin-left: 235px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
